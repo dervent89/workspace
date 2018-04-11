@@ -1,0 +1,22 @@
+{
+  "name": "workspace",
+  "homepage": "https://github.com/dervent89/workspace",
+  "authors": [
+    "dervent89 <murat.dervent@gmail.com>"
+  ],
+  "description": "Project Start",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "plugins/"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.1.0"
+  }
+}
