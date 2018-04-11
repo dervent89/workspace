@@ -1,0 +1,17 @@
+$margin-slug: margin !default;
+$list: top bottom left right;
+
+
+@each $author in $list{
+   @for $i from 1 through 20{
+      .#{$margin-slug}-#{$author}-#{$i * 5}{
+        #{$margin-slug}-#{$author}: $i * 5px;
+      }
+   }
+   @for $i from 1 through 20{
+      .#{$margin-slug}-#{$author}-#{$i * 5}i{
+        #{$margin-slug}-#{$author}: $i * 5px !important;
+      }
+   }
+}
+
