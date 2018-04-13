@@ -1,0 +1,16 @@
+$lColor : #deb20e;
+$dColor : #966612;
+$white  : #fff;
+$black  : #202020;
+$lGrey  : #f6f6f6;
+
+*{
+   outline: none !important;
+   &:focus{
+      box-shadow: none !important;
+      outline: none !important;
+   }
+}
+.no-scroll{
+   overflow: hidden;
+}

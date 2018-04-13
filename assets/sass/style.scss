@@ -2,6 +2,13 @@
 @import '../../plugins/bootstrap/scss/bootstrap';
 // Swiper Install
 @import '../../plugins/swiper/dist/css/swiper.min.css';
+// Flag Icon Install
+@import '../../plugins/flag-icon-css/sass/flag-icon';
+// FontAwesome Install
+@import '../../plugins/fontAwesome/web-fonts-with-css/scss/fa-brands';
+@import '../../plugins/fontAwesome/web-fonts-with-css/scss/fa-regular';
+@import '../../plugins/fontAwesome/web-fonts-with-css/scss/fa-solid';
+@import '../../plugins/fontAwesome/web-fonts-with-css/scss/fontawesome';
 // Special Code
 @import 'base/vendor';
 @import 'layout/vendor';

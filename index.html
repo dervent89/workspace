@@ -8,21 +8,350 @@
    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-   <div class="container">
-      <div class="row">
-         <div class="col-12">
-            <div class="card">
-               <div class="card-header">Project Start</div>
-               <div class="card-body">Hello World</div>
-               <div class="card-footer">:)</div>
+   
+   <header class="main-header">
+      <div class="main-header-top">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-3 col-xl-4">
+                  <a href="/" class="main-logo">
+                     <img src="assets/images/logo.png" srcset="assets/images/logo.png 1x,assets/images/logo@2x.png 2x,assets/images/logo@3x.png 3x" alt="">
+                  </a>
+               </div>
+               <div class="col-lg-4 col-xl-4">
+                  <div class="component component-search text-center">
+                     <div class="component-header">
+                        <input type="text" class="search-input" placeholder="Ara..">
+                        <i class="fa fa-search"></i>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-5 col-xl-4">
+                  <ul class="main-header-top-menu">
+                     <li class="component component-login">
+                        <a href="#">KAYIT OL</a>
+                        <span class="sep-icon"><i class="fa fa-user-circle"></i></span>
+                        <a href="javascript:;" class="component-header">GİRİŞ YAP</a>
+                        <div class="component-body">
+                           <div class="title">ÜYE GİRİŞİ</div>
+                           <div class="login-wrap">
+                              <form action="">
+                                 <div class="form-group">
+                                    <label for="">E-Mail</label>
+                                    <input type="email" class="form-control">
+                                 </div>
+                                 <div class="form-group">
+                                    <label for="">Şifre</label>
+                                    <input type="password" class="form-control">
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-12 text-right">
+                                       <a href="#" class="btn-link text-warning">Şifremi Unuttum</a>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-12 margin-top-15">
+                                       <a href="#" class="btn btn-block btn-success">ÜYE GİRİŞİ</a>
+                                    </div>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                        <div class="component-overlay"></div>
+                     </li>
+                     <li class="component component-cart">
+                        <a href="javascript:;" class="component-header">
+                           <i class="fa fa-shopping-bag"></i>
+                           <span class="cart-count">3</span>
+                        </a>
+                        <div class="component-body">
+                           <div class="title">SEPETİM</div>
+                           <div class="cart-list-wrap">
+                              <ul class="cart-list">
+                                 <li class="cart-item">
+                                    <a href="#">
+                                       <figure><img src="upload/product-1.jpg" alt=""></figure>
+                                       <div class="text-wrap">
+                                          <div class="text">Lorem Ipsum</div>
+                                          <div class="price">670 $</div>
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li class="cart-item">
+                                    <a href="#">
+                                       <figure><img src="upload/product-2.jpg" alt=""></figure>
+                                       <div class="text-wrap">
+                                          <div class="text">Lorem Ipsum</div>
+                                          <div class="price">670 $</div>
+                                       </div>
+                                    </a>
+                                 </li>
+                                 <li class="cart-item">
+                                    <a href="#">
+                                       <figure><img src="upload/product-3.jpg" alt=""></figure>
+                                       <div class="text-wrap">
+                                          <div class="text">Lorem Ipsum</div>
+                                          <div class="price">670 $</div>
+                                       </div>
+                                    </a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="cart-total">
+                              <span>TOPLAM</span>
+                              <b>1270 $</b>
+                           </div>
+                           <div class="cart-button">
+                              <a href="#" class="btn btn-success btn-block">ALIŞVERİŞİ TAMAMLA</a>
+                           </div>
+                        </div>
+                        <div class="component-overlay"></div>
+                     </li>
+                     <li class="component component-language">
+                        <a href="javascript:;" class="component-header">
+                           <span>TR</span><i class="fa fa-angle-down"></i>
+                        </a>
+                        <div class="component-body">
+                           <ul class="sub-menu">
+                              <li>
+                                 <a href="#"><i class="flag-icon flag-icon-tr"></i><span>Türkçe</span></a>
+                              </li>
+                              <li>
+                                 <a href="#"><i class="flag-icon flag-icon-gb"></i><span>English</span></a>
+                              </li>
+                              <li>
+                                 <a href="#"><i class="flag-icon flag-icon-ru"></i><span>Руска</span></a>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="component-overlay"></div>
+                     </li>
+                  </ul>
+               </div>
             </div>
          </div>
       </div>
+      <div class="main-header-bottom">
+         <div class="container">
+            <ul class="main-header-bottom-menu">
+               <li><a href="#">Anasayfa</a></li>
+               <li><a href="#">Hakkımızda</a></li>
+               <li><a href="#">Sanatçılar</a></li>
+               <li><a href="#">Galeri</a></li>
+               <li><a href="#">Artblog</a></li>
+               <li><a href="#">İletişim</a></li>
+            </ul>
+         </div>
+      </div>
+   </header>
+   <header class="main-header-placeholder"></header>
+   <div class="site-container">
+      <section class="main-slider">
+         <div class="container">
+            <div class="swiper-container">
+               <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                     <div class="inner">
+                        <figure><img src="upload/main-slider-1.jpg" alt=""></figure>
+                        <div class="text-wrap" data-swiper-parallax="-200" data-swiper-parallax-duration="800">
+                           <div class="title">LOREM IPSUM DOLOR DUMMY TEXT</div>
+                           <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.. <a href="#"> Read more >></a></div>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="swiper-slide">
+                     <div class="inner">
+                        <figure><img src="upload/main-slider-2.jpg" alt=""></figure>
+                        <div class="text-wrap" data-swiper-parallax="-200" data-swiper-parallax-duration="800">
+                           <div class="title">LOREM IPSUM DOLOR DUMMY TEXT</div>
+                           <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.. <a href="#"> Read more >></a></div>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="swiper-slide">
+                     <div class="inner">
+                        <figure><img src="upload/main-slider-3.jpg" alt=""></figure>
+                        <div class="text-wrap" data-swiper-parallax="-200" data-swiper-parallax-duration="800">
+                           <div class="title">LOREM IPSUM DOLOR DUMMY TEXT</div>
+                           <div class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.. <a href="#"> Read more >></a></div>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+               <div class="swiper-control">
+                  <div class="swiper-button-prev"><i class="fa fa-angle-left"></i></div>
+                  <div class="swiper-button-next"><i class="fa fa-angle-right"></i></div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="product-list-wrap">
+         <div class="container">
+            <h4><b>SON EKLENEN</b> ESERLER</h4>
+            <ul class="product-list">
+               <li class="product-item">
+                  <div class="inner">
+                     <div class="row">
+                        <div class="colum-1 col-6 text-center">
+                           <a href="#" class="figure">
+                              <img src="upload/product-1.jpg" alt="">
+                           </a>
+                        </div>
+                        <div class="colum-2 col-6">
+                           <div class="text-wrap">
+                              <span class="title">LOREM IPSUM</span>
+                              <div class="text-wrap-inner">
+                                 <span class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</span>
+                                 <span class="price">670 $</span>
+                                 <div class="btn-wrap">
+                                    <a href="#" class="btn btn-danger">İncele</a>
+                                    <a href="#" class="btn btn-success">Sepete Ekle</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <li class="product-item">
+                  <div class="inner">
+                     <div class="row">
+                        <div class="colum-1 col-6 text-center">
+                           <a href="#" class="figure">
+                              <img src="upload/product-2.jpg" alt="">
+                           </a>
+                        </div>
+                        <div class="colum-2 col-6">
+                           <div class="text-wrap">
+                              <span class="title">LOREM IPSUM</span>
+                              <div class="text-wrap-inner">
+                                 <span class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</span>
+                                 <span class="price">670 $</span>
+                                 <div class="btn-wrap">
+                                    <a href="#" class="btn btn-danger">İncele</a>
+                                    <a href="#" class="btn btn-success">Sepete Ekle</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <li class="product-item">
+                  <div class="inner">
+                     <div class="row">
+                        <div class="colum-1 col-6 text-center">
+                           <a href="#" class="figure">
+                              <img src="upload/product-3.jpg" alt="">
+                           </a>
+                        </div>
+                        <div class="colum-2 col-6">
+                           <div class="text-wrap">
+                              <span class="title">LOREM IPSUM</span>
+                              <div class="text-wrap-inner">
+                                 <span class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</span>
+                                 <span class="price">670 $</span>
+                                 <div class="btn-wrap">
+                                    <a href="#" class="btn btn-danger">İncele</a>
+                                    <a href="#" class="btn btn-success">Sepete Ekle</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </section>
+      <section class="blog-list-wrap">
+         <div class="container">
+            <h4 class="text-center"><b>ART</b>BLOG</h4>
+            <ul class="blog-list">
+               <li class="blog-item">
+                  <a href="#" class="inner">
+                     <figure><img src="upload/blog-1.jpg" alt=""></figure>
+                     <div class="text-wrap">
+                        Blog Başlık Yazılacak Alan
+                     </div>
+                  </a>
+               </li>
+               <li class="blog-item">
+                  <a href="#" class="inner">
+                     <figure><img src="upload/blog-2.jpg" alt=""></figure>
+                     <div class="text-wrap">
+                        Blog Başlık Yazılacak Alan
+                     </div>
+                  </a>
+               </li>
+               <li class="blog-item">
+                  <a href="#" class="inner">
+                     <figure><img src="upload/blog-3.jpg" alt=""></figure>
+                     <div class="text-wrap">
+                        Blog Başlık Yazılacak Alan
+                     </div>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </section>
    </div>
+   <footer>
+      <div class="main-footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-12 text-center">
+                  <a href="#"><img src="assets/images/logo.png" srcset="assets/images/logo.png 1x,assets/images/logo@2x.png 2x,assets/images/logo@3x.png 3x" alt=""></a>
+               </div>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-12 col-md-3">
+                  <h4>SANATÇILAR</h4>
+                  <ul class="footer-menu">
+                     <li><a href="#">Murat Dervent</a></li>
+                     <li><a href="#">Murat Dervent</a></li>
+                     <li><a href="#">Murat Dervent</a></li>
+                  </ul>
+               </div>
+               <div class="col-12 col-md-3">
+                  <h4>ARTBLOG</h4>
+                  <ul class="footer-menu">
+                     <li><a href="#">Murat Dervent</a></li>
+                     <li><a href="#">Murat Dervent</a></li>
+                     <li><a href="#">Murat Dervent</a></li>
+                  </ul>
+               </div>
+               <div class="col-12 col-md-3">
+                  <h4>MÜŞTERİ HİZMETLERİ</h4>
+                  <ul class="footer-menu">
+                     <li><a href="#">Yardım</a></li>
+                     <li><a href="#">İşlem Rehberi</a></li>
+                     <li><a href="#">Gizlilik Sözleşmesi</a></li>
+                     <li><a href="#">Kişisel Verilerin Korunması</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer-copyright">
+         <div class="container">
+            <div class="row">
+               <div class="col-12 col-md-6">
+                  <img src="assets/images/credit-card.png" alt="">
+               </div>
+               <div class="col-12 col-md-6">
+                  <span class="float-right">© Copyright 2018</span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
 
+   <!-- JS file import -->
    <script src="plugins/jquery/dist/jquery.min.js"></script>
    <script src="plugins/popper.js/dist/umd/popper.min.js"></script>
    <script src="plugins/bootstrap/dist/js/bootstrap.min.js"></script>
    <script src="plugins/swiper/dist/js/swiper.min.js"></script>
+   <script src="assets/js/script.js"></script>
 </body>
 </html>
